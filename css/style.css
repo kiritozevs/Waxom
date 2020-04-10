@@ -568,14 +568,24 @@ h1,h2,h3,h4,h5,h6{
 .post:hover  .posts-img-table-down{
 	background-color: #a48d72;
 }
-.posts-img{
-	margin-bottom: -4px;
-	position: relative;
+.post:hover .posts-img-blueVesion{
 	background: #000000ad;
+}
+.posts-img{
+	margin-bottom:-4px;
+	position: relative;
 }
 .posts-img-image{
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+.posts-img-blueVesion{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 98%;
+	background: none;
 }
 div{
 	margin: 0;
