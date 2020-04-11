@@ -14,6 +14,94 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
 }
+.form{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #fff url(../img/unnamed.jpg)  no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+form{
+	padding: 25px;
+	border: 1px solid #002B50;
+	background-color: #2a4f73;
+}
+
+.form-title{
+	background-color: #1E4261;
+	text-align: center;
+	padding: 20px 150px;
+	border-radius: 4px 4px 0 0;
+	color: #fff;
+
+}
+.form-all{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.form-all-buttons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.form-all-buttons-button{
+	width: 300px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius: 2px;
+	outline: none;
+	border: 1px solid #336D9F;
+	padding-left: 10px;
+}
+.ff{
+	position: relative;
+}
+.form-all-buttons-titles{
+	position: absolute;
+	margin-top: 10px;
+	color: #FFCA9B;
+}
+.submit{
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	background-color: rgb(0, 43, 80);
+	color: #fff;
+	outline: none;
+	border: none;
+}
+/*form*/
+.form{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: : #000;
+}
 .button{
 	background-color: #998675;
 	display: inline-block;
